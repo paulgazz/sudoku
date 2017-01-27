@@ -1,4 +1,4 @@
-# (Yet Another) Sudoku Solver
+# (Unfortunately Another) Sudoku Solver
 
 I saw a sudoku puzzle in magazine, had heard about for a while, and
 decided to see what it was all about. After reading the rules, I
@@ -23,8 +23,10 @@ doing, so I wrote this solver for fun.
 
 - `tests/puz1.sud` from time magazine Jan. 16, 2006
 - `tests/puz2.sud` from sudoku.com Jan. 13, 2006
-- `tests/` contains various broken puzzles and ones with zero or more
-  than one solution
+- `tests/two_sols.sud` has two solutions
+- `tests/broken#.sud` are impossible
+- `tests/no_sol.sud` is also impossible
+- `tests/null.sud` will generate all possible sudoku boards
 
 ## Description
 
